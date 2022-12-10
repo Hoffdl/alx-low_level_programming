@@ -2,13 +2,13 @@
 /**
  * main - Entry point
  *
- *Description: using sizeof to print the size of various types
+ * Description: using sizeof to print the size of various types
  *
  * Return: 0
 */
 int main(void)
 {
-	/sizeof evaluates the size of variable/
+	/*sizeof evaluates the size of variable*/
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(char))
 	printf("Size of an int: %lu byte(s)\n", sizeof(int))
