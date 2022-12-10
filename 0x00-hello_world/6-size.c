@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main - print size of various types in C
+ * main - Entry point
+ *
+ *Description: using size of  to print thesize of various types
  *
  * Return: 0
 */
