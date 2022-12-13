@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - prints numbers form 0-9 seperated by a comma followed by a space
