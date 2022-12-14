@@ -4,6 +4,8 @@
 /**
  * print_to_98 - prints all natural numbers to 98
  * @n: number provided by user
+ * Return: 0
+ *
  */
 
 void print_to_98(int n)
