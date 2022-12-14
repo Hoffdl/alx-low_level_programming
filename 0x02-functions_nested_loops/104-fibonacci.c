@@ -58,4 +58,5 @@ int main(void)
 			printf("\n");
 		i++;
 	}
+	return (0);
 }
