@@ -2,8 +2,7 @@
 
 /**
  * print_diagonal - prints diagonal line n times.
- * @n: times diagonal line is printed
- * Return: no return.
+ * @n: pring slash
  */
 void print_diagonal(int n)
 {
