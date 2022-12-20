@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  reset_to_98 - update pointer value to 98
- *  @n: parameter to be provided
- *  Return: Always 0
+ *  reset_to_98 - update value of a var using pointers
+ *  @n: int to update
+ *  Return: 0
  */
 void reset_to_98(int *n);
 {
