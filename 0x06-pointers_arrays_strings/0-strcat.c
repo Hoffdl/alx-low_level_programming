@@ -2,9 +2,9 @@
 
 /**
  * _strcat - concatennates two strings
- * @dest: copy to
- * @src: copy from
- * Return: pointer to dest
+ * @dest: input value
+ * @src: input value
+ * Return: void
  */
 char *_strcat(char *dest, char *src);
 {
