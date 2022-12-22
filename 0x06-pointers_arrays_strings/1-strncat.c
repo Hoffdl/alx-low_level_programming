@@ -1,7 +1,8 @@
-include "main.h"
+#include "main.h"
 
 /**
- * _strncat - joins two strings with n bytes
+ * _strncat - concatenate two strings
+ * Descrption: at most n bytes from src
  * @dest: input value
  * @src: input value
  * @n: input value
@@ -20,9 +21,9 @@ char *_strncpy(char *dest, char *src, int n)
 	j = 0;
 	while (j < n && src[j] != '\0')
 	{
-		dest[i] = src[j];
-		i++;
-		j++;
+	dest[i] = src[j];
+	i++;
+	j++;
 	}
 	dest[i] = '\0';
 	return (dest);
