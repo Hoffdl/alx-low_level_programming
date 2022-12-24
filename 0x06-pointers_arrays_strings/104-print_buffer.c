@@ -1,12 +1,12 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_buffer -prints buffer
  * @b: buffer
  * @size: size
  * Return: void
  */
+
 void print_buffer(char *b, int size)
 {
 	int o, j, i;
@@ -15,7 +15,7 @@ void print_buffer(char *b, int size)
 
 	if (size <= 0)
 	{
-		printf('\n');
+		printf("\n");
 		return;
 	}
 	while (o <= size)
