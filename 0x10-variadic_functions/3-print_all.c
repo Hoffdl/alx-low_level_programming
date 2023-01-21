@@ -41,6 +41,8 @@ void print_all(const char * const format, ...)
 				printf("(nil)");
 				break;
 			}
+			printf("%s", str);
+			break;
 		} i++;
 	}
 	printf("\n"), va_end(valist);
