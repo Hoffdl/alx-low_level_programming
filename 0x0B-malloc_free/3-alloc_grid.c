@@ -5,7 +5,7 @@
  * alloc_grid - allocates a grid, make space and free space
  * @width: width of grid
  * @height: height of grid
- * Return: grid with freec space 
+ * Return: grid with freed space
  */
 int **alloc_grid(int width, int height)
 {
